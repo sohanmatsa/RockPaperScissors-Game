@@ -35,7 +35,7 @@ h1{
 .game{
     display: flex;
     height: 120px;
-    gap: 120px;
+    gap: 120px; 
     align-items: center;
 }
 
@@ -58,7 +58,7 @@ h2{
     margin-top: 30px;
 }
 
-.menu{
+#menu{
     display: flex;
     justify-content: center;
     margin-top: 40px;
