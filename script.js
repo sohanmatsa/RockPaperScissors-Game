@@ -38,9 +38,9 @@ function playGame() {
     } else if (playerImage.src.includes("rock") && computerImage.src.includes("paper") ||
         playerImage.src.includes("paper") && computerImage.src.includes("scissors") ||
         playerImage.src.includes("scissors") && computerImage.src.includes("rock")) {
-        message.textContent = "Computer Win"
+        message.textContent = "Computer Win 🤖"
     } else {
-        message.textContent = "Player Win"
+        message.textContent = "Player Win 😄"
     }
 
 }
