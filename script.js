@@ -7,8 +7,8 @@ const paperMenuImage = document.getElementById("paper-img")
 const scissorsMenuImage = document.getElementById("scissors-img")
 const menu = document.getElementById("menu")
 const choice = [rockMenuImage, paperMenuImage, scissorsMenuImage]
-let playerPoints = 4
-let computerPoints = 4
+let playerPoints = 0
+let computerPoints = 0
 const playerScore = document.getElementById("player-score")
 const computerScore = document.getElementById("computer-score")
 
