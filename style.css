@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    margin-top: 100px;
+    margin-top: 80px;
     max-width: 100%;
     overflow-x: hidden;
     background-color: #0a1221;
@@ -9,7 +9,7 @@ body{
 .container{
     border-radius: 15px;
     background-color: #0a1221;
-    box-shadow: 1px 1px 20px yellow;
+    box-shadow: 1px 1px 20px goldenrod;
     padding-top: 25px;
     padding-bottom: 10px;
     min-width: 380px;
@@ -41,6 +41,28 @@ h1{
     margin-bottom: 30px;
     text-transform: uppercase;
     
+}
+
+.titles{
+    display: flex;
+    gap: 100px;
+    color: goldenrod;
+    font-family: Inter,Verdana,sans-serif;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+#player-score{
+    border: 1px solid goldenrod;
+    border-radius: 5px;
+    padding: 5px 7px 5px 7px;
+    
+}
+
+#computer-score{
+    border: 1px solid goldenrod;
+    border-radius: 5px;
+    padding: 5px 7px 5px 7px;
 }
 
 .game{
